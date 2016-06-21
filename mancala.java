@@ -2,12 +2,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- * 
- */
-
-/**
  * @author Nimesh
-
  *
  */
 
@@ -27,7 +22,6 @@ class Node
 	//player 1 is below and player 2 is above always.
 	Node(String p2, String p1, int iniStonesp2, int iniStonesp1)
 	{
-
 		//splitting 3 3 3 into an array
 		String[] player1 = p1.split(" ");
 		String[] player2 = p2.split(" ");
@@ -65,7 +59,7 @@ class Node
 	{
 		board = new int[obj.board.length];
 		for(int i=0;i<obj.board.length;i++)
-				board[i]=obj.board[i];
+			board[i]=obj.board[i];
 		player1length = obj.player1length;
 		player2length = obj.player2length;
 		totalsize = obj.totalsize;
